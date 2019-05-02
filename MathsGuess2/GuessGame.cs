@@ -6,11 +6,21 @@ using System.Threading.Tasks;
 
 namespace MathsGuess2
 {
-    class GuessGame
+    public class GuessGame
     {
-        
-        public Boolean gameWon = false;
-        
+        // public Boolean gameWon = false;
+
+            //declare field 
+        private Boolean gameWon = false;
+
+        //set properties of field
+        public bool GameWon
+        {
+            get { return gameWon; }
+            set { gameWon = value; }
+        }
+
+
         //method to compare user input with random generated number
         public string checkGuess(int guess, int target)
         {

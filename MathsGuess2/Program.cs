@@ -39,7 +39,7 @@ namespace MathsGuess2
                     Console.WriteLine(checkMessage);
 
                     //break from loop if guess is correct
-                    if (newGame.gameWon)
+                    if (newGame.GameWon)
                     {
                         break;
                     }
